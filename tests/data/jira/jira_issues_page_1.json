@@ -1,0 +1,273 @@
+{
+    "expand": "schema,names",
+    "issues": [
+        {
+            "expand": "operations,editmeta,changelog,transitions,renderedFields",
+            "fields": {
+                "assignee": {
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://jira.fiware.org/secure/useravatar?size=xsmall&avatarId=10108",
+                        "24x24": "https://jira.fiware.org/secure/useravatar?size=small&avatarId=10108",
+                        "32x32": "https://jira.fiware.org/secure/useravatar?size=medium&avatarId=10108",
+                        "48x48": "https://jira.fiware.org/secure/useravatar?avatarId=10108"
+                    },
+                    "displayName": "Marco Cipriani",
+                    "key": "marco",
+                    "name": "marcocipriani",
+                    "self": "https://jira.fiware.org/rest/api/2/user?username=marcocipriani",
+                    "timeZone": "Europe/Madrid"
+                },
+                "components": [
+                    {
+                        "id": "10279",
+                        "name": "FIWARE-LAB-HELP",
+                        "self": "https://jira.fiware.org/rest/api/2/component/10279"
+                    }
+                ],
+                "created": "2016-03-03T13:40:01.000+0000",
+                "creator": {
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://jira.fiware.org/secure/useravatar?size=xsmall&avatarId=10122",
+                        "24x24": "https://jira.fiware.org/secure/useravatar?size=small&avatarId=10122",
+                        "32x32": "https://jira.fiware.org/secure/useravatar?size=medium&avatarId=10122",
+                        "48x48": "https://jira.fiware.org/secure/useravatar?avatarId=10122"
+                    },
+                    "displayName": "FW External User",
+                    "key": "fw.external.urser",
+                    "name": "fw.ext.user",
+                    "self": "https://jira.fiware.org/rest/api/2/user?username=fw.ext.user",
+                    "timeZone": "Europe/Madrid"
+                },
+                "customfield_10301": null,
+                "customfield_10400": null,
+                "customfield_10600": null,
+                "customfield_10603": null,
+                "description": "Category: Cloud\r\nRegion: Spain2\r\nInstance Name: arispoitest\r\nImage: Ubuntu 14.04\r\nMy Issue: https://jira.fiware.org/browse/WEB-798\r\n\r\nCannot connect to https port 443\r\n\r\nHi,\r\n\r\nI am the product owner of FIWARE POI DP GE that I am currently\r\ndeveloping.\r\nI try to test installing https protocol support to my POI DP GE. It\r\nseems that I can successfully install the secure server stuff but\r\nit cannot accessed from the web. Is there some firewall or something\r\nprohibiting port 443 accesses. My FIWARE Lab instance at Spain2 is\r\narispoitest, internal IP 192.168.224.245, external IP 130.206.118.85.\r\nOr, what to check next?\r\n\r\nBest Regards\r\nAri Okkonen\r\n\r\n-- \r\nAri Okkonen Adminotech\r\nSince January 1st, old domains won't be supported and messages sent to any domain different to @lists.fiware.org will be lost.\r\nPlease, send your messages using the new domain (Fiware-lab-help@lists.fiware.org) instead of the old one.\r\n_______________________________________________\r\nFiware-lab-help mailing list\r\nFiware-lab-help@lists.fiware.org\r\nhttps://lists.fiware.org/listinfo/fiware-lab-help\r\n\n[Created via e-mail received from: Ari Okkonen ADT <ari.okkonen@adminotech.com>]",
+                "duedate": null,
+                "fixVersions": [],
+                "issuelinks": [],
+                "issuetype": {
+                    "description": "Request from external stakeholder received in the help desk",
+                    "iconUrl": "https://jira.fiware.org/images/icons/issuetypes/defect.png",
+                    "id": "10104",
+                    "name": "extRequest",
+                    "self": "https://jira.fiware.org/rest/api/2/issuetype/10104",
+                    "subtask": false
+                },
+                "labels": [],
+                "lastViewed": null,
+                "priority": {
+                    "iconUrl": "https://jira.fiware.org/images/icons/priorities/major.png",
+                    "id": "3",
+                    "name": "Major",
+                    "self": "https://jira.fiware.org/rest/api/2/priority/3"
+                },
+                "project": {
+                    "avatarUrls": {
+                        "16x16": "https://jira.fiware.org/secure/projectavatar?size=xsmall&avatarId=10011",
+                        "24x24": "https://jira.fiware.org/secure/projectavatar?size=small&avatarId=10011",
+                        "32x32": "https://jira.fiware.org/secure/projectavatar?size=medium&avatarId=10011",
+                        "48x48": "https://jira.fiware.org/secure/projectavatar?avatarId=10011"
+                    },
+                    "id": "10841",
+                    "key": "HELP",
+                    "name": "Help-Desk",
+                    "projectCategory": {
+                        "description": "",
+                        "id": "10302",
+                        "name": "FIWARE - Phase II",
+                        "self": "https://jira.fiware.org/rest/api/2/projectCategory/10302"
+                    },
+                    "self": "https://jira.fiware.org/rest/api/2/project/10841"
+                },
+                "reporter": {
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://jira.fiware.org/secure/useravatar?size=xsmall&avatarId=10122",
+                        "24x24": "https://jira.fiware.org/secure/useravatar?size=small&avatarId=10122",
+                        "32x32": "https://jira.fiware.org/secure/useravatar?size=medium&avatarId=10122",
+                        "48x48": "https://jira.fiware.org/secure/useravatar?avatarId=10122"
+                    },
+                    "displayName": "FW External User",
+                    "key": "fw.external.urser",
+                    "name": "fw.ext.user",
+                    "self": "https://jira.fiware.org/rest/api/2/user?username=fw.ext.user",
+                    "timeZone": "Europe/Madrid"
+                },
+                "resolution": null,
+                "resolutiondate": null,
+                "status": {
+                    "description": "The issue is defined and ready for schedule",
+                    "iconUrl": "https://jira.fiware.org/images/icons/statuses/open.png",
+                    "id": "1",
+                    "name": "Open",
+                    "self": "https://jira.fiware.org/rest/api/2/status/1",
+                    "statusCategory": {
+                        "colorName": "blue-gray",
+                        "id": 2,
+                        "key": "new",
+                        "name": "To Do",
+                        "self": "https://jira.fiware.org/rest/api/2/statuscategory/2"
+                    }
+                },
+                "subtasks": [],
+                "summary": "[Fiware-lab-help] FIWARE Lab Assistance",
+                "updated": "2016-03-03T14:32:47.000+0000",
+                "votes": {
+                    "hasVoted": false,
+                    "self": "https://jira.fiware.org/rest/api/2/issue/HELP-6043/votes",
+                    "votes": 0
+                },
+                "watches": {
+                    "isWatching": false,
+                    "self": "https://jira.fiware.org/rest/api/2/issue/HELP-6043/watchers",
+                    "watchCount": 1
+                },
+                "workratio": -1
+            },
+            "id": "35851",
+            "key": "HELP-6043",
+            "self": "https://jira.fiware.org/rest/api/2/issue/35851"
+        },
+        {
+            "expand": "operations,editmeta,changelog,transitions,renderedFields",
+            "fields": {
+                "assignee": {
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://jira.fiware.org/secure/useravatar?size=xsmall&avatarId=10108",
+                        "24x24": "https://jira.fiware.org/secure/useravatar?size=small&avatarId=10108",
+                        "32x32": "https://jira.fiware.org/secure/useravatar?size=medium&avatarId=10108",
+                        "48x48": "https://jira.fiware.org/secure/useravatar?avatarId=10108"
+                    },
+                    "displayName": "Marco Cipriani",
+                    "key": "marco",
+                    "name": "marcocipriani",
+                    "self": "https://jira.fiware.org/rest/api/2/user?username=marcocipriani",
+                    "timeZone": "Europe/Madrid"
+                },
+                "components": [
+                    {
+                        "id": "11404",
+                        "name": "SPAM",
+                        "self": "https://jira.fiware.org/rest/api/2/component/11404"
+                    }
+                ],
+                "created": "2016-03-03T13:11:01.000+0000",
+                "creator": {
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://jira.fiware.org/secure/useravatar?size=xsmall&avatarId=10122",
+                        "24x24": "https://jira.fiware.org/secure/useravatar?size=small&avatarId=10122",
+                        "32x32": "https://jira.fiware.org/secure/useravatar?size=medium&avatarId=10122",
+                        "48x48": "https://jira.fiware.org/secure/useravatar?avatarId=10122"
+                    },
+                    "displayName": "FW External User",
+                    "key": "fw.external.urser",
+                    "name": "fw.ext.user",
+                    "self": "https://jira.fiware.org/rest/api/2/user?username=fw.ext.user",
+                    "timeZone": "Europe/Madrid"
+                },
+                "customfield_10301": null,
+                "customfield_10400": null,
+                "customfield_10600": null,
+                "customfield_10603": null,
+                "description": "Having problems viewing this message, please click here\r\n[http://www.openforumconferences.co.uk/display.php?M=3690995&C=c2a9a91c24a1dc0e81825247115d9351&S=2030&L=498&N=505]\r\nfor webversion.\r\n\r\n\r\nWhat is the role of charities in the new Sporting Future strategy?\r\n\r\n\"Sport is a key part of local communities but it looks different in\r\ndifferent places \u2013 there is no top down approach that works everywhere.\"\r\nSporting Future, 2015\r\n\r\nJoin us at A New Strategy for Sport: A Change of Approach where we will\r\ndiscuss the contribution that sport and physical activity has to offer\r\nindividuals and communities.\r\n\r\nCharities have an important leadership role to play in the new Sporting\r\nFuture strategy, however the need for social investment and grants also\r\nplays a vital role in supporting the sustainable development of the sports\r\nsector.\r\n\r\n\r\nThe conference and its networking opportunities will offer the chance to\r\nshare best practice, and discuss how grants can be used to set up brilliant\r\nprogrammes involving sport that can deliver massive benefits to communities\r\nand give people new skills for life and work.\r\n\r\n\r\nThe conference's programme has been designed to give delegates maximum\r\nopportunity to question, express opinions and debate with the plenary\r\nspeakers the future for sport.\r\n\r\n\r\n Read more >>\r\n[http://www.openforumconferences.co.uk/link.php?M=3690995&N=2030&L=150&F=T]\r\n\r\n\r\nBook a Place\r\n [http://www.openforumconferences.co.uk/link.php?M=3690995&N=2030&L=368&F=T]\r\n\r\nView Overview\r\n[http://www.openforumconferences.co.uk/link.php?M=3690995&N=2030&L=150&F=T]\r\n\r\n\r\nView Programme\r\n[http://www.openforumconferences.co.uk/link.php?M=3690995&N=2030&L=151&F=T]\r\n\r\nYou will hear from:\r\n\r\nAndy Reed, Chair and co-founder, Sports Think Tank\r\n- \"A New Strategy for Sport - More Engagement with More Sports for More\r\nPeople\"\r\n\r\n\r\nJane Ashworth OBE, Chief Executive Officer, StreetGames UK\r\n- \" Sport in Disadvantaged Communities \"\r\n\r\nProfessor Kate Ardern, Director of Public Health, Wigan Council\r\n- \"Commissioning Physical Activity to Improve Health and Well-being\"\r\n\r\n\r\nChris Grant, CEO, Sported\r\n- \"The Positive Impacts of Community Projects\"\r\n\r\n\r\nBarry Horne, Chief Executive, English Federation of Disability Sport\r\n- \"Making Sport and Physical Activity Inclusive for People with\r\nDisabilities\"\r\n\r\nSpeaker TBC, Access Sport\r\n\r\n\r\nDean Horridge, Chairman, UKACTIVE KIDS\r\n- \"Embedding Sport and Physical Activity in the Younger Generation\"\r\n\r\n\r\nBryn Price, Director, Safer Kent\r\n- \"Using Sport to Assist Young People who are At Risk of Marginalisation\r\nand/or Exclusion\"\r\n\r\nPanel Debate:\r\n- \"Reaching People Outside of Sports Comfort Zone\"\r\nPhil Veasey, Public Health and Community Engagement Associate, C3\r\nCollaborating for Health\r\nDavid Pilkington, Project Manager at ACCENTS - Poplar HARCA\r\nDr Edwina Brocklesby, Director, Silverfit\r\nBarry Horne, Chief Executive, English Federation of Disability Sport.\r\n\r\nView Programme\r\n[http://www.openforumconferences.co.uk/link.php?M=3690995&N=2030&L=151&F=T]\r\n\r\n\r\nContact Us\r\n\r\nIf you would like more information or would like to register for the\r\nconference. Please contact Benjamin Selby on the details below. Invoice\r\noptions are available when registering your place.\r\nBenjamin Selby\r\n\r\nMarketing Executive\r\nOpen Forum Events\r\nben@openforumconferences.co.uk\r\n0161 376 9007\r\n\r\nUnsubscribe\r\n[http://www.openforumconferences.co.uk/link.php?M=3690995&N=2030&L=6&F=T]\r\n\r\n\r\n\nSince January 1st, old domains won't be supported and messages sent to any domain different to @lists.fiware.org will be lost.\r\nPlease, send your messages using the new domain (Fiware-lab-help@lists.fiware.org) instead of the old one.\r\n_______________________________________________\r\nFiware-lab-help mailing list\r\nFiware-lab-help@lists.fiware.org\r\nhttps://lists.fiware.org/listinfo/fiware-lab-help\n[Created via e-mail received from: National Strategy for Sport Conference <ben@openforumconferences.co.uk>]",
+                "duedate": null,
+                "fixVersions": [],
+                "issuelinks": [],
+                "issuetype": {
+                    "description": "Request from external stakeholder received in the help desk",
+                    "iconUrl": "https://jira.fiware.org/images/icons/issuetypes/defect.png",
+                    "id": "10104",
+                    "name": "extRequest",
+                    "self": "https://jira.fiware.org/rest/api/2/issuetype/10104",
+                    "subtask": false
+                },
+                "labels": [],
+                "lastViewed": null,
+                "priority": {
+                    "iconUrl": "https://jira.fiware.org/images/icons/priorities/major.png",
+                    "id": "3",
+                    "name": "Major",
+                    "self": "https://jira.fiware.org/rest/api/2/priority/3"
+                },
+                "project": {
+                    "avatarUrls": {
+                        "16x16": "https://jira.fiware.org/secure/projectavatar?size=xsmall&avatarId=10011",
+                        "24x24": "https://jira.fiware.org/secure/projectavatar?size=small&avatarId=10011",
+                        "32x32": "https://jira.fiware.org/secure/projectavatar?size=medium&avatarId=10011",
+                        "48x48": "https://jira.fiware.org/secure/projectavatar?avatarId=10011"
+                    },
+                    "id": "10841",
+                    "key": "HELP",
+                    "name": "Help-Desk",
+                    "projectCategory": {
+                        "description": "",
+                        "id": "10302",
+                        "name": "FIWARE - Phase II",
+                        "self": "https://jira.fiware.org/rest/api/2/projectCategory/10302"
+                    },
+                    "self": "https://jira.fiware.org/rest/api/2/project/10841"
+                },
+                "reporter": {
+                    "active": true,
+                    "avatarUrls": {
+                        "16x16": "https://jira.fiware.org/secure/useravatar?size=xsmall&avatarId=10122",
+                        "24x24": "https://jira.fiware.org/secure/useravatar?size=small&avatarId=10122",
+                        "32x32": "https://jira.fiware.org/secure/useravatar?size=medium&avatarId=10122",
+                        "48x48": "https://jira.fiware.org/secure/useravatar?avatarId=10122"
+                    },
+                    "displayName": "FW External User",
+                    "key": "fw.external.urser",
+                    "name": "fw.ext.user",
+                    "self": "https://jira.fiware.org/rest/api/2/user?username=fw.ext.user",
+                    "timeZone": "Europe/Madrid"
+                },
+                "resolution": {
+                    "description": "extRequest, WorkItems, Stories, Features and Epics",
+                    "id": "10000",
+                    "name": "Done",
+                    "self": "https://jira.fiware.org/rest/api/2/resolution/10000"
+                },
+                "resolutiondate": "2016-03-03T14:30:17.000+0000",
+                "status": {
+                    "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+                    "iconUrl": "https://jira.fiware.org/images/icons/statuses/generic.png",
+                    "id": "6",
+                    "name": "Closed",
+                    "self": "https://jira.fiware.org/rest/api/2/status/6",
+                    "statusCategory": {
+                        "colorName": "green",
+                        "id": 3,
+                        "key": "done",
+                        "name": "Done",
+                        "self": "https://jira.fiware.org/rest/api/2/statuscategory/3"
+                    }
+                },
+                "subtasks": [],
+                "summary": "[Fiware-lab-help] What is the role of charities in the new Sporting Future strategy?",
+                "updated": "2016-03-03T14:30:17.000+0000",
+                "votes": {
+                    "hasVoted": false,
+                    "self": "https://jira.fiware.org/rest/api/2/issue/HELP-6042/votes",
+                    "votes": 0
+                },
+                "watches": {
+                    "isWatching": false,
+                    "self": "https://jira.fiware.org/rest/api/2/issue/HELP-6042/watchers",
+                    "watchCount": 2
+                },
+                "workratio": -1
+            },
+            "id": "35850",
+            "key": "HELP-6042",
+            "self": "https://jira.fiware.org/rest/api/2/issue/35850"
+        }
+    ],
+    "maxResults": 2,
+    "startAt": 0,
+    "total": 3
+}
